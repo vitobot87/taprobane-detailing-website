@@ -76,7 +76,7 @@ export default function Home() {
             <div className="flex-1 text-center md:text-left">
               <div className="inline-flex items-center gap-2 bg-yellow-500/20 text-yellow-300 px-4 py-2 rounded-full text-sm font-medium mb-6 backdrop-blur-sm">
                 <span>⭐</span>
-                <span>5.0 Rating on Google • 15+ Reviews</span>
+                <span>5.0 Rating on Google • 40+ Reviews</span>
               </div>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight drop-shadow-lg">
                 Mississauga&apos;s 5-Star{" "}
