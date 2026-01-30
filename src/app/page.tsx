@@ -80,7 +80,7 @@ export default function Home() {
               </div>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight drop-shadow-lg">
                 Mississauga&apos;s 5-Star{" "}
-                <span className="text-blue-400">Auto Detailing</span> Experts
+                <span className="text-purple-400">Auto Detailing</span> Experts
               </h1>
               <p className="text-xl text-gray-200 mb-8 max-w-xl drop-shadow">
                 Where every detail matters. Professional-grade detailing that transforms your vehicle inside and out.
@@ -88,7 +88,7 @@ export default function Home() {
               <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
                 <a
                   href="tel:+16479174643"
-                  className="inline-flex items-center justify-center gap-2 bg-blue-500 hover:bg-blue-600 text-white font-semibold px-8 py-4 rounded-lg transition-colors text-lg"
+                  className="inline-flex items-center justify-center gap-2 bg-purple-500 hover:bg-purple-600 text-white font-semibold px-8 py-4 rounded-lg transition-colors text-lg"
                 >
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
                     <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
@@ -161,7 +161,7 @@ export default function Home() {
       </section>
 
       {/* Reviews Section */}
-      <section className="py-20 bg-gradient-to-br from-blue-900 to-slate-900 text-white">
+      <section className="py-20 bg-gradient-to-br from-purple-900 to-slate-900 text-white">
         <div className="max-w-6xl mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
@@ -170,7 +170,7 @@ export default function Home() {
             <div className="flex items-center justify-center gap-1 text-yellow-400 text-2xl">
               {"★".repeat(5)}
             </div>
-            <p className="text-blue-200 mt-2">5.0 average from Google Reviews</p>
+            <p className="text-purple-200 mt-2">5.0 average from Google Reviews</p>
           </div>
           <div className="grid md:grid-cols-3 gap-8">
             {reviews.map((review, index) => (
@@ -183,7 +183,7 @@ export default function Home() {
                 </div>
                 <p className="text-gray-200 mb-6 italic">&ldquo;{review.text}&rdquo;</p>
                 <p className="text-white font-semibold">— {review.author}</p>
-                <p className="text-blue-300 text-sm">Google Review</p>
+                <p className="text-purple-300 text-sm">Google Review</p>
               </div>
             ))}
           </div>
@@ -204,21 +204,21 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-12">
             <div className="space-y-6">
               <div className="flex items-start gap-4">
-                <div className="bg-blue-100 dark:bg-blue-900/30 p-3 rounded-lg">
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-blue-600 dark:text-blue-400" viewBox="0 0 20 20" fill="currentColor">
+                <div className="bg-purple-100 dark:bg-purple-900/30 p-3 rounded-lg">
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-purple-600 dark:text-purple-400" viewBox="0 0 20 20" fill="currentColor">
                     <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
                   </svg>
                 </div>
                 <div>
                   <h3 className="font-semibold text-gray-900 dark:text-white">Phone</h3>
-                  <a href="tel:+16479174643" className="text-blue-600 dark:text-blue-400 hover:underline text-lg">
+                  <a href="tel:+16479174643" className="text-purple-600 dark:text-purple-400 hover:underline text-lg">
                     (647) 917-4643
                   </a>
                 </div>
               </div>
               <div className="flex items-start gap-4">
-                <div className="bg-blue-100 dark:bg-blue-900/30 p-3 rounded-lg">
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-blue-600 dark:text-blue-400" viewBox="0 0 20 20" fill="currentColor">
+                <div className="bg-purple-100 dark:bg-purple-900/30 p-3 rounded-lg">
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-purple-600 dark:text-purple-400" viewBox="0 0 20 20" fill="currentColor">
                     <path fillRule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd" />
                   </svg>
                 </div>
@@ -231,8 +231,8 @@ export default function Home() {
                 </div>
               </div>
               <div className="flex items-start gap-4">
-                <div className="bg-blue-100 dark:bg-blue-900/30 p-3 rounded-lg">
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-blue-600 dark:text-blue-400" viewBox="0 0 20 20" fill="currentColor">
+                <div className="bg-purple-100 dark:bg-purple-900/30 p-3 rounded-lg">
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-purple-600 dark:text-purple-400" viewBox="0 0 20 20" fill="currentColor">
                     <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clipRule="evenodd" />
                   </svg>
                 </div>
@@ -245,14 +245,14 @@ export default function Home() {
                 </div>
               </div>
               <div className="flex items-start gap-4">
-                <div className="bg-blue-100 dark:bg-blue-900/30 p-3 rounded-lg">
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-blue-600 dark:text-blue-400" viewBox="0 0 24 24" fill="currentColor">
+                <div className="bg-purple-100 dark:bg-purple-900/30 p-3 rounded-lg">
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-purple-600 dark:text-purple-400" viewBox="0 0 24 24" fill="currentColor">
                     <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
                   </svg>
                 </div>
                 <div>
                   <h3 className="font-semibold text-gray-900 dark:text-white">Instagram</h3>
-                  <a href="https://instagram.com/taprobanedetailing" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline">
+                  <a href="https://instagram.com/taprobanedetailing" target="_blank" rel="noopener noreferrer" className="text-purple-600 dark:text-purple-400 hover:underline">
                     @taprobanedetailing
                   </a>
                 </div>
@@ -274,17 +274,17 @@ export default function Home() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 bg-blue-600 dark:bg-blue-700">
+      <section className="py-16 bg-purple-600 dark:bg-purple-700">
         <div className="max-w-4xl mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold text-white mb-4">
             Ready to Transform Your Vehicle?
           </h2>
-          <p className="text-blue-100 mb-8 text-lg">
+          <p className="text-purple-100 mb-8 text-lg">
             Book your appointment today and experience the Taprobane difference.
           </p>
           <a
             href="tel:+16479174643"
-            className="inline-flex items-center gap-2 bg-white text-blue-600 font-bold px-8 py-4 rounded-lg hover:bg-gray-100 transition-colors text-lg"
+            className="inline-flex items-center gap-2 bg-white text-purple-600 font-bold px-8 py-4 rounded-lg hover:bg-gray-100 transition-colors text-lg"
           >
             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
               <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
