@@ -59,20 +59,30 @@ export default function Home() {
   return (
     <main className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-slate-900 via-blue-900 to-slate-900 text-white">
-        <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxnIGZpbGw9IiNmZmYiIGZpbGwtb3BhY2l0eT0iMC4wMyI+PHBhdGggZD0iTTM2IDM0djItSDI0di0yaDEyek0zNiAyNHYySDI0di0yaDEyeiIvPjwvZz48L2c+PC9zdmc+')] opacity-50"></div>
+      <section className="relative text-white min-h-[600px] md:min-h-[700px]">
+        {/* Hero Background Image */}
+        <div className="absolute inset-0">
+          <Image
+            src={`${basePath}/hero.png`}
+            alt="Premium Auto Detailing"
+            fill
+            className="object-cover"
+            priority
+          />
+          <div className="absolute inset-0 bg-gradient-to-r from-slate-900/95 via-slate-900/80 to-slate-900/40"></div>
+        </div>
         <div className="relative max-w-6xl mx-auto px-4 py-24 md:py-32">
           <div className="flex flex-col md:flex-row items-center gap-12">
             <div className="flex-1 text-center md:text-left">
-              <div className="inline-flex items-center gap-2 bg-yellow-500/20 text-yellow-300 px-4 py-2 rounded-full text-sm font-medium mb-6">
+              <div className="inline-flex items-center gap-2 bg-yellow-500/20 text-yellow-300 px-4 py-2 rounded-full text-sm font-medium mb-6 backdrop-blur-sm">
                 <span>⭐</span>
                 <span>5.0 Rating on Google • 15+ Reviews</span>
               </div>
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight drop-shadow-lg">
                 Mississauga&apos;s 5-Star{" "}
                 <span className="text-blue-400">Auto Detailing</span> Experts
               </h1>
-              <p className="text-xl text-gray-300 mb-8 max-w-xl">
+              <p className="text-xl text-gray-200 mb-8 max-w-xl drop-shadow">
                 Where every detail matters. Professional-grade detailing that transforms your vehicle inside and out.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
