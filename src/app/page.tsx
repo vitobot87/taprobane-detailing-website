@@ -69,7 +69,7 @@ export default function Home() {
             className="object-cover"
             priority
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-slate-900/95 via-slate-900/80 to-slate-900/40"></div>
+          <div className="absolute inset-0 bg-gradient-to-r from-neutral-900/95 via-neutral-900/80 to-neutral-900/40"></div>
         </div>
         <div className="relative max-w-6xl mx-auto px-4 py-24 md:py-32">
           <div className="flex flex-col md:flex-row items-center gap-12">
@@ -82,7 +82,7 @@ export default function Home() {
                 Mississauga&apos;s 5-Star{" "}
                 <span className="text-purple-400">Auto Detailing</span> Experts
               </h1>
-              <p className="text-xl text-gray-200 mb-8 max-w-xl drop-shadow">
+              <p className="text-xl text-neutral-200 mb-8 max-w-xl drop-shadow">
                 Where every detail matters. Professional-grade detailing that transforms your vehicle inside and out.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
@@ -119,25 +119,25 @@ export default function Home() {
       </section>
 
       {/* About Section */}
-      <section className="py-20 bg-gray-100 dark:bg-gray-900">
+      <section className="py-20 bg-neutral-100 dark:bg-neutral-900">
         <div className="max-w-4xl mx-auto px-4 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-6">
+          <h2 className="text-3xl md:text-4xl font-bold text-neutral-900 dark:text-white mb-6">
             About Taprobane Detailing
           </h2>
-          <p className="text-lg text-gray-700 dark:text-gray-200 leading-relaxed">
+          <p className="text-lg text-neutral-700 dark:text-neutral-200 leading-relaxed">
             At Taprobane Detailing, we don&apos;t just clean cars—we transform them. Our team of passionate detailing experts brings years of experience and an obsessive attention to detail to every vehicle. Whether you need a quick refresh or a complete restoration, we&apos;ll make your car look better than the day you bought it. With a perfect 5-star Google rating and dozens of thrilled customers, we&apos;ve earned our reputation as Mississauga&apos;s go-to detailing destination.
           </p>
         </div>
       </section>
 
       {/* Services Section */}
-      <section id="services" className="py-20 bg-white dark:bg-gray-950">
+      <section id="services" className="py-20 bg-white dark:bg-neutral-950">
         <div className="max-w-6xl mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4">
+            <h2 className="text-3xl md:text-4xl font-bold text-neutral-900 dark:text-white mb-4">
               Our Services
             </h2>
-            <p className="text-lg text-gray-600 dark:text-gray-300">
+            <p className="text-lg text-neutral-600 dark:text-neutral-300">
               Professional detailing services for every need
             </p>
           </div>
@@ -145,13 +145,13 @@ export default function Home() {
             {services.map((service) => (
               <div
                 key={service.name}
-                className="bg-gray-100 dark:bg-gray-800 rounded-xl p-8 hover:shadow-lg transition-shadow border border-gray-200 dark:border-gray-700"
+                className="bg-neutral-100 dark:bg-neutral-800 rounded-xl p-8 hover:shadow-lg transition-shadow border border-neutral-200 dark:border-neutral-700"
               >
                 <div className="text-4xl mb-4">{service.icon}</div>
-                <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-2">
+                <h3 className="text-xl font-semibold text-neutral-900 dark:text-white mb-2">
                   {service.name}
                 </h3>
-                <p className="text-gray-700 dark:text-gray-300">
+                <p className="text-neutral-700 dark:text-neutral-300">
                   {service.description}
                 </p>
               </div>
@@ -161,7 +161,7 @@ export default function Home() {
       </section>
 
       {/* Reviews Section */}
-      <section className="py-20 bg-gradient-to-br from-purple-900 to-slate-900 text-white">
+      <section className="py-20 bg-gradient-to-br from-purple-900 to-neutral-900 text-white">
         <div className="max-w-6xl mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
@@ -181,7 +181,7 @@ export default function Home() {
                 <div className="flex gap-1 text-yellow-400 mb-4">
                   {"★".repeat(review.rating)}
                 </div>
-                <p className="text-gray-200 mb-6 italic">&ldquo;{review.text}&rdquo;</p>
+                <p className="text-neutral-200 mb-6 italic">&ldquo;{review.text}&rdquo;</p>
                 <p className="text-white font-semibold">— {review.author}</p>
                 <p className="text-purple-300 text-sm">Google Review</p>
               </div>
@@ -191,13 +191,13 @@ export default function Home() {
       </section>
 
       {/* Contact Section */}
-      <section id="contact" className="py-20 bg-white dark:bg-gray-950">
+      <section id="contact" className="py-20 bg-white dark:bg-neutral-950">
         <div className="max-w-4xl mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4">
+            <h2 className="text-3xl md:text-4xl font-bold text-neutral-900 dark:text-white mb-4">
               Get In Touch
             </h2>
-            <p className="text-lg text-gray-600 dark:text-gray-300">
+            <p className="text-lg text-neutral-600 dark:text-neutral-300">
               Ready to transform your vehicle? Contact us today!
             </p>
           </div>
@@ -210,7 +210,7 @@ export default function Home() {
                   </svg>
                 </div>
                 <div>
-                  <h3 className="font-semibold text-gray-900 dark:text-white">Phone</h3>
+                  <h3 className="font-semibold text-neutral-900 dark:text-white">Phone</h3>
                   <a href="tel:+16479174643" className="text-purple-600 dark:text-purple-400 hover:underline text-lg">
                     (647) 917-4643
                   </a>
@@ -223,8 +223,8 @@ export default function Home() {
                   </svg>
                 </div>
                 <div>
-                  <h3 className="font-semibold text-gray-900 dark:text-white">Location</h3>
-                  <p className="text-gray-600 dark:text-gray-300">
+                  <h3 className="font-semibold text-neutral-900 dark:text-white">Location</h3>
+                  <p className="text-neutral-600 dark:text-neutral-300">
                     2576 Haines Rd UNIT C<br />
                     Mississauga, ON L4Y 1Y6
                   </p>
@@ -237,8 +237,8 @@ export default function Home() {
                   </svg>
                 </div>
                 <div>
-                  <h3 className="font-semibold text-gray-900 dark:text-white">Hours</h3>
-                  <p className="text-gray-600 dark:text-gray-300">
+                  <h3 className="font-semibold text-neutral-900 dark:text-white">Hours</h3>
+                  <p className="text-neutral-600 dark:text-neutral-300">
                     Mon–Sat: 9:00 AM – 6:00 PM<br />
                     Sunday: Closed
                   </p>
@@ -251,14 +251,14 @@ export default function Home() {
                   </svg>
                 </div>
                 <div>
-                  <h3 className="font-semibold text-gray-900 dark:text-white">Instagram</h3>
+                  <h3 className="font-semibold text-neutral-900 dark:text-white">Instagram</h3>
                   <a href="https://instagram.com/taprobanedetailing" target="_blank" rel="noopener noreferrer" className="text-purple-600 dark:text-purple-400 hover:underline">
                     @taprobanedetailing
                   </a>
                 </div>
               </div>
             </div>
-            <div className="bg-gray-100 dark:bg-gray-900 rounded-xl overflow-hidden">
+            <div className="bg-neutral-100 dark:bg-neutral-900 rounded-xl overflow-hidden">
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2889.5!2d-79.59!3d43.62!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b3860a3c8e00d%3A0x5e7a0d14d36c1b5a!2s2576%20Haines%20Rd%20Unit%20C%2C%20Mississauga%2C%20ON!5e0!3m2!1sen!2sca!4v1234567890"
                 width="100%"
@@ -284,7 +284,7 @@ export default function Home() {
           </p>
           <a
             href="tel:+16479174643"
-            className="inline-flex items-center gap-2 bg-white text-purple-600 font-bold px-8 py-4 rounded-lg hover:bg-gray-100 transition-colors text-lg"
+            className="inline-flex items-center gap-2 bg-white text-purple-600 font-bold px-8 py-4 rounded-lg hover:bg-neutral-100 transition-colors text-lg"
           >
             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
               <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
@@ -295,7 +295,7 @@ export default function Home() {
       </section>
 
       {/* Footer */}
-      <footer className="py-8 bg-gray-900 text-gray-400">
+      <footer className="py-8 bg-neutral-900 text-neutral-400">
         <div className="max-w-6xl mx-auto px-4">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <div className="flex items-center gap-3">
