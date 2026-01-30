@@ -109,12 +109,12 @@ export default function Home() {
       </section>
 
       {/* About Section */}
-      <section className="py-20 bg-gray-50 dark:bg-gray-900">
+      <section className="py-20 bg-gray-100 dark:bg-gray-900">
         <div className="max-w-4xl mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-6">
             About Taprobane Detailing
           </h2>
-          <p className="text-lg text-gray-600 dark:text-gray-300 leading-relaxed">
+          <p className="text-lg text-gray-700 dark:text-gray-200 leading-relaxed">
             At Taprobane Detailing, we don&apos;t just clean cars—we transform them. Our team of passionate detailing experts brings years of experience and an obsessive attention to detail to every vehicle. Whether you need a quick refresh or a complete restoration, we&apos;ll make your car look better than the day you bought it. With a perfect 5-star Google rating and dozens of thrilled customers, we&apos;ve earned our reputation as Mississauga&apos;s go-to detailing destination.
           </p>
         </div>
@@ -127,7 +127,7 @@ export default function Home() {
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4">
               Our Services
             </h2>
-            <p className="text-lg text-gray-600 dark:text-gray-400">
+            <p className="text-lg text-gray-600 dark:text-gray-300">
               Professional detailing services for every need
             </p>
           </div>
@@ -135,13 +135,13 @@ export default function Home() {
             {services.map((service) => (
               <div
                 key={service.name}
-                className="bg-gray-50 dark:bg-gray-900 rounded-xl p-8 hover:shadow-lg transition-shadow border border-gray-100 dark:border-gray-800"
+                className="bg-gray-100 dark:bg-gray-800 rounded-xl p-8 hover:shadow-lg transition-shadow border border-gray-200 dark:border-gray-700"
               >
                 <div className="text-4xl mb-4">{service.icon}</div>
                 <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-2">
                   {service.name}
                 </h3>
-                <p className="text-gray-600 dark:text-gray-400">
+                <p className="text-gray-700 dark:text-gray-300">
                   {service.description}
                 </p>
               </div>
@@ -187,7 +187,7 @@ export default function Home() {
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4">
               Get In Touch
             </h2>
-            <p className="text-lg text-gray-600 dark:text-gray-400">
+            <p className="text-lg text-gray-600 dark:text-gray-300">
               Ready to transform your vehicle? Contact us today!
             </p>
           </div>
@@ -214,7 +214,7 @@ export default function Home() {
                 </div>
                 <div>
                   <h3 className="font-semibold text-gray-900 dark:text-white">Location</h3>
-                  <p className="text-gray-600 dark:text-gray-400">
+                  <p className="text-gray-600 dark:text-gray-300">
                     2576 Haines Rd UNIT C<br />
                     Mississauga, ON L4Y 1Y6
                   </p>
@@ -228,7 +228,7 @@ export default function Home() {
                 </div>
                 <div>
                   <h3 className="font-semibold text-gray-900 dark:text-white">Hours</h3>
-                  <p className="text-gray-600 dark:text-gray-400">
+                  <p className="text-gray-600 dark:text-gray-300">
                     Mon–Sat: 9:00 AM – 6:00 PM<br />
                     Sunday: Closed
                   </p>
